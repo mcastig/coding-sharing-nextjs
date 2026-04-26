@@ -1,26 +1,30 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@theme {
+  --font-sans: var(--font-outfit);
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-nc-white: #fffffe;
+  --color-nc-dark: #121826;
+  --color-nc-medium: #364153;
+  --color-nc-light: #ced6e1;
+  --color-nc-blue: #406aff;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f8f7fe;
+  color: #121826;
+}
+
+/* 4-pointed decorative star */
+.deco-star {
+  clip-path: polygon(
+    50% 0%,
+    54% 44%,
+    100% 50%,
+    54% 56%,
+    50% 100%,
+    46% 56%,
+    0% 50%,
+    46% 44%
+  );
 }
