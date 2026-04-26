@@ -1,0 +1,11 @@
+.code-editor {
+  background: #ffffff;
+}
+
+.code-editor--dark {
+  background: #1e1e1e;
+}
+
+.code-editor .minimap {
+  margin-top: 16px;
+}

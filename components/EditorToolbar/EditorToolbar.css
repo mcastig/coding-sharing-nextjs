@@ -1,0 +1,41 @@
+.toolbar {
+  border-color: #e5e7eb;
+  background: #ffffff;
+}
+
+.toolbar--dark {
+  border-color: #333333;
+  background: #1e1e1e;
+}
+
+.toolbar-select {
+  background: #CED6E1;
+  color: #364153;
+}
+
+.toolbar-copy-btn {
+  color: #CED6E1;
+}
+
+.toolbar-copy-url {
+  color: #364153;
+  opacity: 0.6;
+  max-width: 110px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.toolbar--dark .toolbar-copy-url {
+  color: #FFFFFE;
+}
+
+.toolbar-share-btn {
+  background-image: linear-gradient(to bottom right, rgba(64, 106, 255, 1));
+}
+
+.toolbar-share-btn:disabled {
+  background-image: none;
+  background-color: #364153;
+  opacity: 0.7;
+}

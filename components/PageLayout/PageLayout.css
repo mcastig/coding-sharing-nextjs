@@ -1,0 +1,15 @@
+.page-gradient {
+  height: 45%;
+  background: linear-gradient(135deg, #9060E8 0%, #7030D0 100%);
+}
+
+.page-gradient::before {
+  content: '';
+  position: absolute;
+  top: -36px;
+  left: 0%;
+  width: 100%;
+  height: 140px;
+  background: #f8f8fc;
+  border-radius: 0 0 50% 50%;
+}
