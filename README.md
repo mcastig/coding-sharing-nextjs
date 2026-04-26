@@ -1,5 +1,7 @@
 # NoteCode – Create & Share Your Code
 
+**Live demo → [coding-sharing-nextjs.vercel.app](https://coding-sharing-nextjs.vercel.app/)**
+
 A code-sharing web app built with Next.js 16. Write a snippet, hit **Share**, and get a permanent link anyone can open.
 
 ## Features
